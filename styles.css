@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+/* Styles the navigation bar */
+.navbar {
+    background-color: darkgray;
+    overflow: hidden;
+}
+
+/* Styles the list inside the navigation bar */
+.navbar ul {
+    background-color: darkgray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Places the navigation links next to each other */
+.navbar li {
+    float: left;
+}
+
+/* Styles the links */
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Changes the background when the mouse hovers over a link */
+.navbar li a:hover {
+    background-color: #111;
+}
+
+/* Shows which page is currently selected */
+.navbar li a.active {
+    background-color: blue;
+}
+
+body {
+	background-color: rgb(43, 43, 43);
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-size:  32px;
+	color: rgb(231, 212, 212);
+	text-align: center;
+	border:  1px rgb(68, 70, 68);
+	background-color:  #2b2b2b;
+	height:  30px;
+	border-radius:  10px;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	font-size:  28px;
+	color: white;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Montserrat';
+	font-size: 24px;
+	color: white
+}
+
+p {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: white;
+}
+
+img {
+	font-family: 'Montserrat';
+	border:  1px solid rgb(155, 155, 155);
+	border-radius: 5px;
+	background: #9b9b9b;
+	padding: 5px;
+}
+
+li {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	color: white;
+}
